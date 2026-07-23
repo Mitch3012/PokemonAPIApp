@@ -73,3 +73,18 @@ Responsive mobile layout
 TypeScript version
 
 Better animations and styling
+
+🌐 API
+
+This project uses the free PokéAPI to retrieve Pokémon data.
+
+https://pokeapi.co/
+
+📸 Screenshot
+
+Add a screenshot of the application here.
+
+Example:
+
+images/screenshot.png
+
