@@ -33,6 +33,13 @@ body{
     height: 20px;
     border-radius: 10px;
     margin-top: 275px;
+    padding: 5px;
+}
+#display-poke-name{
+    text-align: center;
+    font-size: 25px;
+    text-shadow: 1px 1px 2px black;
+    color: antiquewhite;
 }
 #Search-Button{
     border-radius: 10px;
