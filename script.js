@@ -19,9 +19,12 @@ async function getData() {
 
         imgElement.src = pokemonSprite;
         imgElement.style.display = "block";
+
+        // add name
         const displayPokeName = document.getElementById("display-poke-name");4
         const pokeName = result.species.name.toUpperCase();
         displayPokeName.innerText = pokeName;
+        
         //clear previous type
         let typeDiV = document.getElementById("pokemon-types");
 
