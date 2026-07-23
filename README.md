@@ -87,4 +87,23 @@ Add a screenshot of the application here.
 Example:
 
 images/screenshot.png
+▶️ Running the Project
+Clone the repository
+git clone https://github.com/yourusername/pokedex-app.git
+Open the project folder.
+Open index.html in your browser.
+
+No installation or dependencies are required.
+
+💡 Why I Built This
+
+I built this project to strengthen my JavaScript skills and gain hands-on experience working with APIs and asynchronous programming. It represents an important milestone in my transition into software development and demonstrates my ability to build a complete application using real-world data.
+
+📄 License
+
+This project is for educational and portfolio purposes.
+
+Pokémon is © Nintendo, Game Freak, and Creatures Inc.
+
+Pokémon data is provided by PokéAPI.
 
