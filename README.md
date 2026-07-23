@@ -82,7 +82,7 @@ https://pokeapi.co/
 
 📸 Screenshot
 
-(https://github.com/Mitch3012/PokemonAPIApp/blob/main/Screenshot%20of%20working%20pokemon%20app.jpg?raw=true)
+(https://github.com/Mitch3012/PokemonAPIApp/blob/2be888157225fa7a586a7d24cbf29caf765a051f/Screenshot%20of%20working%20pokemon%20app.jpg)
 
 Example:
 
