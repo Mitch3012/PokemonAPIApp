@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pokedex App</title>
+        <link rel="stylesheet" href ="style.css">
+    </head>
+    <body>
+        <div id = "content">
+            <!--Left Side to show information about Pokeman-->
+            <div id="poke-info">
+            <img id="pokemon-img" src="" alt="Pokemon image" style="display: none;">
+            <h2 id ="display-poke-name"></h2>
+            <div id="pokemon-types">
+            <span></span>
+            <span></span>
+            </div>
+
+            <p id="pokemon-description"></p>
+</div>
+                    <!-- Right Side Input for the Pokemon-->
+        <div id = "pokemon-input">
+        <input 
+            id = "pokemonName"
+            type="text" 
+            name="Pokemon" 
+            placeholder="Please enter Pokemon Name or Number" 
+            required>
+        <button onclick = getData()
+        id ="Search-Button">Search</button>
+        </div>
+   
+    </div>
+    <script src="script.js"></script>   
+</body>
+</html>
