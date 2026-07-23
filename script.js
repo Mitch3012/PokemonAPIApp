@@ -49,11 +49,30 @@ async function getData() {
     let desc = await res.json();
     
     desc = desc.flavor_text_entries[12].flavor_text;
+//add Height
+    const height = result.height / 10;
+    result.height
+    document.getElementById("pokemon-height").innerText =
+    `Height:${height} m`;
+//add Weight
+    const weight = result.weight / 10;
+    result.weight
+    document.getElementById("pokemon-weight").innerText = 
+    `Weight:${weight} kg`
 
+// add description    
 const descElement =document.getElementById("pokemon-description");
 console.log(desc);
 console.log(descElement);
 descElement.innerText = desc; 
+
+//add stats
+document.getElementById("pokemon-stats").innerHTML = "";
+
+result.stats.forEach(stat => {
+    document.getElementById("pokemon-stats").innerHTML +=
+        `<p>${stat.stat.name}: ${stat.base_stat}</p>`;
+});
 
 
     } catch (error) {
