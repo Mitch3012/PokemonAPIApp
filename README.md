@@ -82,7 +82,7 @@ https://pokeapi.co/
 
 📸 Screenshot
 
-Add a screenshot of the application here.
+\.Screenshot of working pokemon app.jpg
 
 Example:
 
